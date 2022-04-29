@@ -3,7 +3,7 @@ import cv2
 arqCasc1 = r'CAMINHO_DO_ARQUIVO\haarcascade_frontalface_default.xml'
 arqCasc2 = r'CAMINHO_DO_ARQUIVO\haarcascade_eye.xml'
 
-# Caminho do arquivo para a minha máquina : r'C:\Users\Fernando\AppData\Local\Programs\Python\Python38\Lib\site-packages\cv2\data\haarcascade_eye.xml'
+
 faceCascade1 = cv2.CascadeClassifier(arqCasc1) #classificador para o rosto
 faceCascade2 = cv2.CascadeClassifier(arqCasc2) #classificador para os olhos
 
